@@ -26,9 +26,12 @@ export default function Home() {
             A production-ready starter with Next.js 16, React 19, TypeScript,
             Tailwind CSS 4, and shadcn/ui components
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex gap-4 justify-center flex-wrap">
+            <Link href="/components-demo">
+              <Button size="lg">All Components Demo</Button>
+            </Link>
             <Link href="/examples">
-              <Button size="lg">View Examples</Button>
+              <Button size="lg" variant="secondary">View Examples</Button>
             </Link>
             <Button size="lg" variant="outline" asChild>
               <a
