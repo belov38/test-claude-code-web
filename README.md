@@ -17,7 +17,7 @@ A modern Next.js application with shadcn/ui components, Docker support, and CI/C
 
 ### Prerequisites
 
-- Node.js 22 or later
+- Node.js 24 LTS or later
 - npm or yarn
 - Docker (for containerization)
 - Google Cloud Platform account (for GCR deployment)

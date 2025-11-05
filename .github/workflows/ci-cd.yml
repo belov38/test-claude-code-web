@@ -10,7 +10,7 @@ env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   GCR_REGISTRY: gcr.io
   IMAGE_NAME: nextjs-app
-  NODE_VERSION: '22'
+  NODE_VERSION: '24'
 
 jobs:
   # Job 1: Lint and Test
